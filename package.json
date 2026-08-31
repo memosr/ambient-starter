@@ -1,0 +1,16 @@
+{
+  "name": "ambient-starter",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Zero dependency starter template for the Ambient API",
+  "type": "module",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "health": "node health.mjs",
+    "chat": "node examples/chat.mjs",
+    "stream": "node examples/stream.mjs",
+    "tools": "node examples/tools.mjs"
+  }
+}
